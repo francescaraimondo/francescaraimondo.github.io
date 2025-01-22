@@ -461,10 +461,13 @@ nav a:hover {
 .full-width .video-info {
     position: absolute;
     bottom: 60px;
-    left: 60px;
+    left: 0;
+    right: 0;
     color: white;
-    z-index: 2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     text-align: center;
+    width: 100%;
+    padding: 0 30px;
 }
 
 .full-width .video-info h3 {
@@ -526,19 +529,27 @@ nav a:hover {
 .video-info {
     position: absolute;
     bottom: 30px;
-    left: 30px;
+    left: 0;
+    right: 0;
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 100%;
+    padding: 0 30px;
 }
 
 .video-info h3 {
     font-size: 24px;
     margin-bottom: 5px;
+    text-align: center;
+    width: 100%;
 }
 
 .video-info p {
     font-size: 20px;
     margin: 4px 0;
+    text-align: center;
+    width: 100%;
 }
 
 .video-item:hover .play-button {
@@ -604,6 +615,8 @@ nav a:hover {
     font-size: 1.2rem;
     font-weight: 600;
     line-height: 1;
+    text-align: center;
+    width: 100%;
 }
 
 .video-item:not(.full-width) p {
@@ -612,6 +625,8 @@ nav a:hover {
     font-size: 0.95rem;
     margin: 0;
     line-height: 1.1;
+    text-align: center;
+    width: 100%;
 }
 
 .video-item:not(.full-width) p:nth-of-type(1) {
@@ -627,6 +642,8 @@ nav a:hover {
     margin-top: 1rem;
     font-size: 1.4rem;
     font-weight: 600;
+    text-align: center;
+    width: 100%;
 }
 
 .video-item p {
@@ -634,6 +651,8 @@ nav a:hover {
     color: #666;
     font-size: 1.1rem;
     margin-top: 0.3rem;
+    text-align: center;
+    width: 100%;
 }
 
 /* Responsive adjustments for videos */
@@ -717,7 +736,9 @@ nav a:hover {
 
     .full-width .video-info {
         bottom: 40px;
-        left: 40px;
+        left: 0;
+        right: 0;
+        padding: 0 30px;
     }
 
     .full-width .video-info h3 {
@@ -744,7 +765,9 @@ nav a:hover {
 
     .full-width .video-info {
         bottom: 30px;
-        left: 30px;
+        left: 0;
+        right: 0;
+        padding: 0 30px;
     }
 
     .full-width .video-info h3 {
@@ -771,7 +794,9 @@ nav a:hover {
 
     .full-width .video-info {
         bottom: 20px;
-        left: 20px;
+        left: 0;
+        right: 0;
+        padding: 0 30px;
     }
 
     .full-width .video-info h3 {
