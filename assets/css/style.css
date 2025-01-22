@@ -894,7 +894,7 @@ nav a:hover {
     margin-bottom: 2rem;
     font-family: 'Cormorant Garamond', serif;
     font-size: 2rem;
-    color: #FFD700;
+    color: #333;
 }
 
 .partner-section-inner {
@@ -1030,7 +1030,7 @@ nav a:hover {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background-color: rgba(255, 215, 0, 0.3);
+    background-color: rgba(51, 51, 51 0.3);
     cursor: pointer;
     transition: all 0.3s ease;
     border: none;
@@ -1038,7 +1038,7 @@ nav a:hover {
 }
 
 .carousel-dot.active {
-    background-color: #FFD700;
+    background-color: #333;
     transform: scale(1.2);
 }
 
