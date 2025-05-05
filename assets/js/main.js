@@ -31,6 +31,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 'assets/images/partners/logo14.webp',
                 'assets/images/partners/logo13.webp',
                 'assets/images/partners/logo15.webp',
+                'assets/images/partners/logo16.webp',
+                'assets/images/partners/logo17.webp',
             ];
             
             this.init();
