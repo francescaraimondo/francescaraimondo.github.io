@@ -33,6 +33,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 'assets/images/partners/logo15.webp',
                 'assets/images/partners/logo16.webp',
                 'assets/images/partners/logo17.webp',
+                'assets/images/partners/logo18.webp',
+                'assets/images/partners/logo19.webp',
+                'assets/images/partners/logo20.webp',
+                'assets/images/partners/logo21.webp',
+                'assets/images/partners/logo22.webp',
+                'assets/images/partners/logo23.webp',
             ];
             
             this.init();
